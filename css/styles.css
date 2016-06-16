@@ -1,0 +1,436 @@
+body {
+    background-image: url("../img/cesped.png"); 
+}
+.ronda {
+    width: 60%;
+    text-align: left;
+    font-family: Arial;
+    font-size: 1.5rem;
+    margin-top: 1.5%;
+    margin-left: 20%;;
+    border-style: solid;
+    border-color: #4CAF50;
+    border-radius: 4px;
+    color: white;
+    background-color: #4CAF50;
+    /*background-color: #0B610B;*/
+    padding: 0.0%;
+    
+}
+#primera{background-color: #0B610B;}
+#cuartos{background-color: #4CAF50;}
+#semis{background-color: #4CAF50;}
+#final{background-color: #4CAF50;}
+#cuartosFinal{display: none;}
+#semiFinales{display: none;}
+#faseFinal{display: none;}
+
+.bar{
+    width: 24.26%;
+    position: relative;
+    float: left;
+    border-style: solid;
+    border-color: #0B610B;
+    text-align: center;
+}
+.ronda a{
+    
+    color:white;
+    padding-top: .1%;
+    padding-bottom: .1%;
+    padding-left: .2%;
+    padding-right: .2%;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+.form {
+    padding-bottom: 1%;
+    
+    position: static;
+    margin-left: 20%;
+    width: 60%;
+}
+
+.tabla {
+    width: 100%;
+    border-style: solid;
+    border-color: #4CAF50;
+    margin-bottom: 3%;
+}
+
+.bandera {
+    border-style: solid;
+    border-color: #4CAF50;
+    width: 15%;
+    text-align: center;
+    font-family: Arial;
+    font-size: 3rem;
+       border-radius: 4px;
+       background-color: #0B610B;
+}
+
+.seleccion {
+    text-align: center;
+       border-radius: 4px;
+    width: 25%;
+    font-family: Arial;
+    font-size: 1.5rem;
+     border-style: solid;
+    border-color: #4CAF50;
+    background-color: #0B610B;
+    color: white;
+}
+
+.resultado {
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    font-family: Arial;
+    border-style: solid;
+    border-color: white;
+       border-radius: 4px;
+       background-color: #4CAF50;
+}
+.option{
+    background-color: #4CAF50;
+}
+ .inp {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: Arial;
+    font-size: 2rem;
+    border-style: none;
+    border-radius: 4px;
+ }
+ 
+ #titulo{
+    text-align: center;
+    padding: 1%;
+    font-family: Arial;
+    font-size: 3rem;
+    padding-top: 1%;
+    margin-bottom: 15%;
+    
+ }
+ 
+.titulo-grupo {
+    text-align: center;
+    padding: 1%;
+    font-family: Arial;
+    font-size: 2rem;
+    padding-top: 1%;
+    margin-bottom: 15%;
+    background-color: #4CAF50;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 4px;
+ }
+ 
+ .label{
+   text-align: center;
+    padding: 1%;
+    font-family: Arial;
+    font-size: 1rem;
+    padding-top: 1%;
+    background-color: #4CAF50;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 4px;
+    margin-bottom: 1%;
+    width: 30%;
+ }
+ 
+ 
+ /*estilos de usuarios*/
+ .row {
+    padding-bottom: 3%;
+ }
+ 
+ .input {
+     width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+ }
+ 
+ 
+ 
+ .btn { width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 1.5%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.tab_usuarios {
+    padding-top: 5%;
+    padding-left: 5%;
+    width: 60%;
+}
+
+.tab_usuarios table th{
+    text-align: center;
+    width :10%;
+    border-style: solid;
+    border-color: black;
+}
+
+
+.tab_usuarios table td{
+    text-align: center;
+    width :10%;
+    border-style: double;
+    border-color: black;
+}
+
+/*login*/
+
+#form_login {
+    width: 40%;
+    margin-left: 30%;
+    padding-top: 5%;
+    font-family: Arial;
+}
+
+#tit  {
+    text-align: center;
+    font-family: Arial;
+    font-size: 3rem;
+    padding-bottom: 5%;
+
+    
+}
+
+/*estilo de menu*/
+
+#menu {
+    width: 80%;
+    height: 5%;
+    text-align: center;
+    font-family: Arial bold;
+    font-size: 1.5rem;
+    border-style: none;
+    margin-bottom: 2%;
+   color:white;
+   margin-left: 10%;
+    
+}
+#menu a{
+    color:white;
+background-color: #4CAF50;
+border-style: solid;
+border-color: #0B610B;
+padding-top: .1%;
+padding-bottom: .1%;
+padding-left: .2%;
+padding-right: .2%;
+border-radius: 4px;
+text-decoration: none;
+font-family: Arial;
+
+}
+
+#menu a:hover {
+background-color:#0B610B;
+border-color: #4CAF50;
+    color: white;
+
+}
+
+
+#tit-en-form{
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+ margin-bottom: 1%;
+    text-shadow:
+   -2px -2px 0 #0B610B,
+    2px -2px 0 #0B610B,
+   -2px 2px 0 #0B610B,
+    2px 2px 0 #0B610B;
+}
+
+
+/*tabla de posiciones*/
+.datagrid table { border-collapse: collapse; 
+ text-align: left; 
+ width: 100%; 
+ } 
+ 
+ .datagrid {font: normal 12px/150% Arial, Helvetica, sans-serif; 
+ background: #fff; 
+ overflow: hidden; 
+ border: 1px solid #36752D; 
+ -webkit-border-radius: 3px; 
+ -moz-border-radius: 3px; 
+ border-radius: 3px;
+ width: 40%;
+ margin-left: 30%;
+ } 
+ 
+.datagrid table td, .datagrid table th { padding: 3px 10px; 
+ } 
+ 
+.datagrid table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #36752D), color-stop(1, #275420) ); 
+background:-moz-linear-gradient( center top, #36752D 5%, #275420 100% ); 
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#36752D', endColorstr='#275420'); 
+background-color:#36752D; 
+ color:#FFFFFF; 
+ font-size: 15px; 
+ font-weight: bold; 
+ border-left: 1px solid #36752D; 
+ } 
+ 
+ .datagrid table thead th:first-child { border: none; 
+ } 
+ 
+.datagrid table tbody td { color: #275420; 
+ border-left: 1px solid #C6FFC2; 
+font-size: 12px; 
+font-weight: normal; 
+ } 
+ 
+.datagrid table tbody .alt td { background: #DFFFDE; 
+ color: #275420; 
+ } 
+ 
+.datagrid table tbody td:first-child { border-left: none; 
+ } 
+ 
+.datagrid table tbody tr:last-child td { border-bottom: none; 
+ } 
+ 
+.datagrid table tfoot td div { border-top: 1px solid #36752D; 
+background: #DFFFDE; 
+} 
+ 
+ .datagrid table tfoot td { padding: 0; 
+ font-size: 12px } 
+ 
+ .datagrid table tfoot td div{ padding: 2px; 
+ } 
+ 
+.datagrid table tfoot td ul { margin: 0; 
+ padding:0; 
+ list-style: none; 
+ text-align: right; 
+ } 
+ 
+.datagrid table tfoot  li { display: inline; 
+ } 
+ 
+.datagrid table tfoot li a { text-decoration: none; 
+ display: inline-block; 
+  padding: 2px 8px; 
+ margin: 1px; 
+color: #FFFFFF; 
+border: 1px solid #36752D; 
+-webkit-border-radius: 3px; 
+ -moz-border-radius: 3px; 
+ border-radius: 3px; 
+ background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #36752D), color-stop(1, #275420) ); 
+background:-moz-linear-gradient( center top, #36752D 5%, #275420 100% ); 
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#36752D', endColorstr='#275420'); 
+background-color:#36752D; 
+ } 
+ 
+.datagrid table tfoot ul.active, .datagrid table tfoot ul a:hover { text-decoration: none; 
+border-color: #275420; 
+ color: #FFFFFF; 
+ background: none; 
+ background-color:#36752D; 
+} 
+ 
+div.dhtmlx_window_active, div.dhx_modal_cover_dv { position: fixed !important; 
+ } 
+
+
+#redes {
+    position: relative;
+    float: right;
+    margin-right: 1%;
+    margin-top: 1%;
+    height:3%;
+    width: 3%;
+    overflow: hidden;
+
+}
+
+#redes img{
+    width: 100%;
+    height: 100%;
+}
+
+#usuario_log {
+    position: relative;
+    float: left;
+    margin-top: 1%;
+    height:2%;
+    width: 12%;
+    overflow: hidden;
+    text-align: center;
+    color:white;
+    background-color: #4CAF50;
+    border-style: solid;
+    border-color: #0B610B;
+    padding-top: .2%;
+    padding-bottom: .2%;
+    padding-left: .1%;
+    padding-right: .1%;
+    border-radius: 4px;
+    font-family: Arial;
+    
+}
+
+#reglamento{
+    width: 36%;
+    margin-left: 30%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    background-color: #0B610B;
+    border-style: solid;
+    border-color: white;
+    border-radius: 4px;
+    font-family: Arial;
+    color: white;
+}
+
+.error {
+    width: 25%;
+    height: 5%;
+    padding: 2.5%;
+    margin-left: 35%;
+    background-color: #0B610B;
+    border-style: solid;
+    border-color: white;
+    border-radius: 4px;
+    font-family: Arial;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    
+}
+
+.detalle{
+    border: solid #4CAF50;
+    padding: 1%;
+    color: white;
+    background-color: #0B610B;
+    margin-top: 2%;
+}
+
+.separador{
+    height: 5px;
+}
